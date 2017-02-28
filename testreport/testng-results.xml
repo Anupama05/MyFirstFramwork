@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="19186" started-at="2017-02-28T06:39:20Z" finished-at="2017-02-28T06:39:40Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="19186" started-at="2017-02-28T06:39:20Z" finished-at="2017-02-28T06:39:40Z">
+      <class name="testScripts.Scenario_Login">
+        <test-method status="PASS" signature="initReports()[pri:0, instance:testScripts.Scenario_Login@61dc03ce]" name="initReports" is-config="true" duration-ms="150" started-at="2017-02-28T12:09:20Z" finished-at="2017-02-28T12:09:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initReports -->
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:testScripts.Scenario_Login@61dc03ce]" name="launchApp" is-config="true" duration-ms="9583" started-at="2017-02-28T12:09:21Z" finished-at="2017-02-28T12:09:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="PASS" signature="ValidLogin(java.util.Map)[pri:0, instance:testScripts.Scenario_Login@61dc03ce]" name="ValidLogin" duration-ms="7324" started-at="2017-02-28T12:09:31Z" data-provider="commondp" finished-at="2017-02-28T12:09:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Order=1.0, Script=ValidLogin, Uname=qtpworld2008@gmail.com, TC_ID=GB_07, Execute=Y, Exp_msg=Hi qtpworld2008 , Pwd=learn123}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testScripts.Scenario_Login@61dc03ce]" name="tearDown" is-config="true" duration-ms="1364" started-at="2017-02-28T12:09:38Z" finished-at="2017-02-28T12:09:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testScripts.Scenario_Login -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
